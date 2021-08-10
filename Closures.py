@@ -4,6 +4,7 @@
 #    3. La función que envuelve a la nested function debe tambien retornarla
 
 # Ejemplo del ejercicio:
+#Paramentros -> Resultado
 # Hola 3 -> HolaHolaHola
 # Diego 2 -> DiegoDiego
 # Platzi 4 -> PlatziPlatziPlatziPlatzi
