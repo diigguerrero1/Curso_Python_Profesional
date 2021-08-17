@@ -48,7 +48,7 @@ def conversor(func):
 
         try:
             menu_long1 = """Escribe la longitud del primer lado: """
-            longitud1 = int(input(menu_long1))
+            longitud1 = float(input(menu_long1))
         except ValueError:
             print('No se puede agregar la longitud de manera alfabetica, escribela de manera numerica')
             return False
@@ -71,7 +71,7 @@ def conversor(func):
 
         try:
             menu_long2 = """Escribe la longitud del segundo lado: """
-            longitud2 = int(input(menu_long2))
+            longitud2 = float(input(menu_long2))
         except ValueError:
             print('No se puede agregar la longitud de manera alfabetica, escribela de manera numerica')
             return False
